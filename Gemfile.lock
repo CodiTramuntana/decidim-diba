@@ -387,6 +387,11 @@ GEM
     declarative-builder (0.1.0)
       declarative-option (< 0.2.0)
     declarative-option (0.1.0)
+    deface (1.6.2)
+      nokogiri (>= 1.6)
+      polyglot
+      rails (>= 5.2)
+      rainbow (>= 2.1.0)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     devise (4.7.1)
@@ -615,7 +620,8 @@ GEM
     pg_search (2.3.5)
       activerecord (>= 5.2)
       activesupport (>= 5.2)
-    premailer (1.11.1)
+    polyglot (0.3.5)
+    premailer (1.14.2)
       addressable
       css_parser (>= 1.6.0)
       htmlentities (>= 4.0.0)
@@ -888,6 +894,7 @@ DEPENDENCIES
   decidim-initiatives!
   decidim-ldap!
   decidim-term_customizer!
+  deface
   dotenv-rails
   factory_bot_rails
   faker

@@ -24,6 +24,7 @@ gem 'puma', '>= 3.12.2'
 gem 'sidekiq', '~> 5.2.7'
 gem 'sidekiq-cron'
 gem 'uglifier', '>= 1.3.0'
+gem 'deface'
 
 group :development, :test do
   gem 'byebug', platform: :mri
